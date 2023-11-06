@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mier';
+    src: local('Mier A Light'), local('Mier-A-Light'),
+        url('MierA-Light.woff2') format('woff2'),
+        url('MierA-Light.woff') format('woff'),
+        url('MierA-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }

@@ -1,0 +1,267 @@
+@font-face {
+  font-family: "Mier A";
+  src: local("Mier A"), url("../src/fonts/MierA-Light.woff2") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  padding: 30px;
+  background: #d9d9d9;
+}
+
+.firstSection {
+  background: #d9d9d9;
+  max-width: 1512px;
+  margin: auto;
+  display: flex;
+  /* border: 1px solid black; */
+  /* padding: 30px; */
+}
+
+.settingsTab {
+  /* width: 18%; */
+  height: 100vh;
+  font-family: "Mier A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #404244;
+  transition: all 500ms ease;
+  /* border: 1px solid red; */
+}
+
+.forSettingActive {
+  width: 28.63%;
+}
+
+.forTypeSettingActive {
+  width: 18%;
+}
+
+.forChatsettingActive {
+  width: 26.9%;
+}
+
+.forTypeSettingActive h5 {
+  width: 50%;
+}
+
+.forSettingActive h5,.test{
+  width: 74%;
+}
+
+.forChatsettingActive h5{
+  width: 76.5%;
+}
+
+.settingsTab h5 {
+  margin: auto;
+  display: flex;
+  /* padding: 30px; */
+  /* width: 50%; */
+  font-family: "Mier A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #404244;
+  /* justify-content: center; */
+  border-bottom: 1px solid #404244;
+}
+
+.settingUI {
+  /* width: 75%; */
+  margin: auto;
+  margin-top: 30px;
+}
+
+.settingUI p {
+  font-family: "Mier A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.2px;
+  margin-bottom: 20px;
+  color: #404244;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.settingsTab h4 {
+  font-family: "Mier A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 1.2px;
+  color: #404244;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.typeHereTab {
+  transition: all 500ms ease;
+  height: 100vh;
+  /* width: 64.24%; */
+}
+
+.fortypeActive {
+  width: 64.24%;
+}
+
+.forSettingTypeActive {
+  width: 37%;
+}
+
+.forChatTypeActive {
+  width: 28.5%;
+}
+
+.fortypeActive input {
+  width: 94%;
+}
+
+.forSettingTypeActive input{
+  width: 80.8%;
+}
+
+.forChatTypeActive h5{
+  width: 72.2%;
+}
+
+
+.typeHereTab input {
+  /* padding: 10px 0px 5px 0px; */
+  /* width: 94%; */
+  font-family: "Mier A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #404244;
+  outline: none;
+  border: navajowhite;
+  background: transparent;
+  border-bottom: 1px solid #404244;
+  display: flex;
+  margin: auto;
+}
+
+.typeHereTab input::placeholder {
+  font-family: "Mier A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #404244;
+}
+
+.typeSentence {
+  width: 94%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.editType {
+  display: flex;
+  justify-content: end;
+  /* align-items: center; */
+  font-family: "Mier A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  gap: 10px;
+}
+
+.typeSentence h4 {
+  margin-top: 10px;
+  font-family: "Mier A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  opacity: 0.4;
+  line-height: 32px;
+  display: flex;
+  justify-content: end;
+}
+
+.typeSentence h3 {
+  font-family: "Mier A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #404244;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.typeSentence p {
+  font-family: "Mier A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #404244;
+  line-height: 28px;
+  margin-bottom: 20px;
+  width: 86.8%;
+  letter-spacing: 1px;
+}
+
+.chatTab {
+  height: 100vh;
+  /* width: 17.76%; */
+  transition: all 500ms ease;
+}
+
+.forChatActive {
+  width: 44.1%;
+}
+
+.forSettingChatActive {
+  width: 33.6%;
+}
+
+.forTypeChatActive {
+  width: 17.76%;
+}
+
+.forTypeChatActive h5 {
+  width: 50%;
+}
+
+.forSettingChatActive h5{
+  width: 89%;
+}
+
+.forChatActive h5{
+  width: 90%;
+}
+
+.chatTab h5 {
+  margin: auto;
+  display: flex;
+  font-family: "Mier A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #404244;
+  border-bottom: 1px solid #404244;
+}
